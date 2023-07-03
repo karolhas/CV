@@ -1,3 +1,4 @@
+import Image from "./assets/hsk.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import {
   BiLogoGmail,
@@ -15,8 +16,6 @@ import {
   BiLogoGithub,
   BiLogoBootstrap,
 } from "react-icons/bi";
-
-import Image from "./assets/hsk.png";
 
 function App() {
   return (

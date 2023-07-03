@@ -1,4 +1,4 @@
-import Image from "./assets/hsk.png";
+import Image from "../src/assets/hsk.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import {
   BiLogoGmail,

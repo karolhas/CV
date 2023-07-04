@@ -1,15 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import { StrictMode } from "react";
-// import { createRoot } from "react-dom/client";
-
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
+import "./index.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App />,
   },
 ]);
@@ -19,12 +16,3 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// const container = document.getElementById("root");
-// const root = createRoot(container as HTMLDivElement);
-
-// root.render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>
-// );

@@ -1,65 +1,61 @@
 import Image from "../assets/photo.jpg";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { BiLogoGmail, BiSolidDownload, BiSolidPrinter } from "react-icons/bi";
+import { BiLogoGmail, BiSolidDownload } from "react-icons/bi";
 
 function Header() {
   return (
     <>
-      <div className="relative top-[64px] z-[-1] bg-slate-400 ">
-        <section className="p-6 text-center">
-          <h1 className="pb-4 text-4xl font-bold">Karol Has</h1>
+      <div className="relative min-h-screen font-montserrat">
+        <section className="p-6 pt-20 text-center">
+          <h1 className="mb-6 text-4xl font-bold">Karol Has</h1>
           <img
             src={Image}
             alt="avatar"
             className="mx-auto h-60 w-60 rounded-full object-cover"
           />
-          <h2 className="pt-4 text-2xl ">Front-End Developer</h2>
-          <p className="font-light">Last update: June 26, 2023</p>
+          <h2 className="mt-6 text-2xl">Front-End Developer</h2>
+          <p className="font-light">Last update: July 06, 2023</p>
         </section>
 
-        <section className="flex justify-center p-6">
+        <section className="flex justify-center text-black">
           <ul className="text-lg">
-            <li className="flex items-center">
-              <BsGithub />
-              <p className="px-2">GitHub:</p>
+            <li className="mt-4 flex items-center justify-center">
               <a
-                href="#"
-                className="text-blue-900 hover:text-blue-700 hover:underline"
+                href="https://github.com/karolhas"
+                target="_blank"
+                className="flex cursor-pointer items-center justify-center rounded-lg bg-gray-400 px-4 py-1.5 shadow-xl duration-300 hover:bg-gray-600 hover:text-white"
               >
-                github.com/karolhas
+                <BsGithub /> <span className="ml-2">Github</span>
               </a>
             </li>
-
-            <li className="flex items-center">
-              <BsLinkedin className="text-blue-900" />
-              <p className="px-2">LinkedIn: </p>
+            <li className="mt-4 flex items-center justify-center">
               <a
-                href="#"
-                className="text-blue-900 hover:text-blue-700 hover:underline"
+                href="https://www.linkedin.com/in/karolhas"
+                target="_blank"
+                className="flex cursor-pointer items-center justify-center rounded-lg bg-blue-400 px-4 py-1.5 shadow-xl duration-300 hover:bg-blue-700 hover:text-white"
               >
-                linkedin.com/karolhas
+                <BsLinkedin />
+                <span className="ml-2">LinkedIn</span>
               </a>
             </li>
-
-            <li className="flex items-center">
-              <BiLogoGmail className="text-red-700" />
-              <p className="px-2">Email:</p>
+            <li className="mt-4 flex items-center justify-center">
               <a
-                href="#"
-                className="text-blue-900 hover:text-blue-700 hover:underline"
+                href="mailto: karolhas.kontakt@gmail.com"
+                className="flex cursor-pointer items-center justify-center rounded-lg bg-red-300 px-4 py-1.5 shadow-xl duration-300 hover:bg-red-600 hover:text-white"
               >
-                karolhas.kontakt@gmail.com
+                <BiLogoGmail />
+                <span className="ml-2">Gmail</span>
               </a>
             </li>
-            <li className="flex justify-around pt-6 font-semibold">
-              <button className="flex items-center gap-x-1 rounded-full bg-gradient-to-r from-blue-400 from-teal-500 to-cyan-500 to-cyan-500 px-2 py-1 hover:bg-gradient-to-l">
+            <li className="mt-4 flex items-center justify-center">
+              <a
+                href="#"
+                target="_blank"
+                className="flex cursor-pointer items-center justify-center rounded-lg bg-teal-500 px-4 py-1.5 shadow-xl duration-300 hover:bg-teal-600 hover:text-white"
+              >
                 <BiSolidDownload />
-                Download CV
-              </button>
-              <button className="flex items-center gap-x-1 rounded-full bg-gradient-to-r from-blue-400 from-teal-500 to-cyan-500 to-cyan-500 px-2 py-1 hover:bg-gradient-to-l">
-                <BiSolidPrinter />
-                Print CV
-              </button>
+                <span className="ml-2">Download PDF</span>
+              </a>
             </li>
           </ul>
         </section>

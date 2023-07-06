@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <section className="bg-green-400 p-6">
+      <section className="my-4 bg-blue-300 p-6 dropshadow">
         <h2 className="text-center text-2xl font-semibold">About</h2>
         <p className="pt-6 text-justify text-lg font-light">
           I am a solider trying to change my job to what I enjoy. I create

@@ -11,7 +11,7 @@ import {
 
 function Technologies() {
   return (
-    <section className="bg-gray-400 p-6 text-center">
+    <section className="bg-gray-600 p-6 text-center">
       <h2 className="text-2xl font-semibold">Technologies</h2>
       <div className="grid grid-flow-col grid-rows-2 justify-around gap-y-6 pt-6">
         <div>

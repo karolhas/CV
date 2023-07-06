@@ -4,7 +4,7 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Hobby from "./components/Hobby";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Technologies />
       <Experience />
       <Education />
-      <Hobby />
+      <Projects />
     </>
   );
 }

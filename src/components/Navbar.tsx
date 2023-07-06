@@ -5,7 +5,7 @@ import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 
 function Navbar() {
   const Links = [
-    { key: "about", name: "ABOUT", link: "/" },
+    { key: "about", name: "ABOUT", link: "/about" },
     { key: "technologies", name: "TECHNOLOGIES", link: "/" },
     { key: "experience", name: "EXPERIENCE", link: "/" },
     { key: "education", name: "EDUCATION", link: "/" },

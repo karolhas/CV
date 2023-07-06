@@ -11,9 +11,9 @@ import {
 
 function Technologies() {
   return (
-    <section className="bg-gray-600 p-6 text-center">
+    <section className="my-6 bg-slate-300 p-6 text-center font-montserrat shadow-inner">
       <h2 className="text-2xl font-semibold">Technologies</h2>
-      <div className="grid grid-flow-col grid-rows-2 justify-around gap-y-6 pt-6">
+      <div className="grid grid-flow-col grid-rows-2 justify-around gap-y-10 pt-6 text-sm">
         <div>
           <AiFillHtml5 className="text-6xl text-orange-700" />
           <p className="font-light">HTML5</p>{" "}

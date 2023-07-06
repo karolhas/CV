@@ -5,7 +5,7 @@ import { BiLogoGmail, BiSolidDownload, BiSolidPrinter } from "react-icons/bi";
 function Header() {
   return (
     <>
-      <div className="mx-auto max-w-screen-xl bg-gradient-to-r from-slate-300 via-slate-400 to-slate-300">
+      <div className="relative top-[64px] z-[-1] bg-slate-400 ">
         <section className="p-6 text-center">
           <h1 className="pb-4 text-4xl font-bold">Karol Has</h1>
           <img

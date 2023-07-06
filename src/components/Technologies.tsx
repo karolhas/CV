@@ -11,7 +11,7 @@ import {
 
 function Technologies() {
   return (
-    <section className="my-6 bg-slate-300 p-6 text-center font-montserrat shadow-inner">
+    <section className="my-6 bg-violet-300 p-6 text-center font-montserrat shadow-inner">
       <h2 className="text-2xl font-semibold">Technologies</h2>
       <div className="grid grid-flow-col grid-rows-2 justify-around gap-y-10 pt-6 text-sm">
         <div>
@@ -32,7 +32,7 @@ function Technologies() {
           <p className="font-light">Github</p>{" "}
         </div>
         <div>
-          <BiLogoJavascript className="mx-auto text-6xl text-yellow-400 " />
+          <BiLogoJavascript className="mx-auto text-6xl text-yellow-300 " />
           <p className="font-light">Javascript</p>{" "}
         </div>
         <div>

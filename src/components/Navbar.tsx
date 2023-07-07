@@ -13,9 +13,9 @@ function Navbar() {
           <SiAlchemy className="h-7 w-7 text-blue-700" />
           <HashLink
             smooth
-            to="/#home"
+            to="/#"
             scroll={(el) =>
-              el.scrollIntoView({ behavior: "smooth", block: "center" })
+              el.scrollIntoView({ behavior: "smooth", block: "start" })
             }
           >
             Portfol<span className="text-blue-700">io</span>

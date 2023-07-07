@@ -15,8 +15,8 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed inset-x-0 z-10 shadow">
-      <div className="items-center justify-between bg-white px-7 py-4 md:flex md:px-10">
+    <div className="fixed inset-x-0 z-10 shadow-lg">
+      <div className="items-center justify-between bg-white px-7 py-4 md:flex md:px-8 lg:px-20">
         <div className="align-center flex gap-1 font-firasans text-2xl font-bold italic">
           <SiAlchemy className="h-7 w-7 text-blue-700" />
           <a href="#">
@@ -49,11 +49,6 @@ function Navbar() {
               </a>
             </li>
           ))}
-
-          <button className="mx-auto mt-2 flex w-40 items-center justify-center rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 p-1.5 font-semibold text-white duration-500 md:static md:ml-8 md:mt-0">
-            <HiOutlineDownload className="mr-2" />
-            Download CV
-          </button>
         </ul>
       </div>
     </div>

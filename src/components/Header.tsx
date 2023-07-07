@@ -5,7 +5,7 @@ import { BiLogoGmail, BiSolidDownload } from "react-icons/bi";
 function Header() {
   return (
     <>
-      <div className="relative min-h-screen font-montserrat">
+      <div id="home" className="relative min-h-screen font-montserrat">
         <section className="p-6 pt-20 text-center">
           <h1 className="mb-6 text-4xl font-bold">Karol Has</h1>
           <img

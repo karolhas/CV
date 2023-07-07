@@ -3,7 +3,10 @@
 function About() {
   return (
     <>
-      <section className="my-6 bg-blue-300 p-6 font-montserrat shadow-inner">
+      <section
+        id="about"
+        className="my-6 bg-blue-300 p-6 font-montserrat shadow-inner"
+      >
         <h2 className="text-center text-2xl font-semibold">About me</h2>
         <p className="pt-6 text-justify text-lg font-light">
           I am a soldier trying to change jobs and become a programmer. I create

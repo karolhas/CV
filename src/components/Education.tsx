@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <section className="my-6 bg-green-300 p-6 font-montserrat shadow-inner">
+    <section id="education" className="my-6 bg-green-300 p-6 font-montserrat shadow-inner">
       <h2 className="text-center text-2xl font-semibold">Education</h2>
       <h3 className="pt-6 text-xl">Academy of Physical Education</h3>
       <p className="text-sm font-light text-gray-800">

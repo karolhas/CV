@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section className="my-6 bg-orange-300 p-6 font-montserrat shadow-inner">
+    <section id="experience" className="my-6 bg-orange-300 p-6 font-montserrat shadow-inner">
       <h2 className="text-center text-2xl font-semibold">Experience</h2>
       <h3 className="pt-6 text-xl">Back office consultant</h3>
       <p className="text-sm font-light text-gray-700">

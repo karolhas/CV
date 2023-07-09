@@ -5,19 +5,25 @@ import { BiLogoGmail, BiSolidDownload } from "react-icons/bi";
 function Header() {
   return (
     <>
-      <div id="home" className="relative min-h-screen font-montserrat">
-        <section className="p-6 pt-20 text-center">
-          <h1 className="mb-6 text-4xl font-bold">Karol Has</h1>
+      <div
+        id="home"
+        className="relative min-h-screen font-montserrat lg:grid lg:grid-cols-2"
+      >
+        <section className="p-6 pt-20 text-center lg:flex lg:flex-col lg:justify-center lg:pt-0">
+          <h1 className="mb-6 text-4xl font-bold lg:hidden">Karol Has</h1>
           <img
             src={Image}
             alt="avatar"
-            className="mx-auto h-60 w-60 rounded-full object-cover"
+            className="mx-auto h-60 w-60 rounded-full object-cover lg:w-[70%] lg:h-3/5"
           />
-          <h2 className="mt-6 text-2xl">Front-End Developer</h2>
-          <p className="font-light">Last update: July 06, 2023</p>
+          <h2 className="mt-6 text-2xl lg:hidden">Front-End Developer</h2>
+          <p className="font-light lg:hidden">Last update: July 06, 2023</p>
         </section>
 
-        <section className="flex justify-center text-black">
+        <section className="flex justify-center text-black lg:flex-col lg:items-center">
+        <h1 className="mb-2 text-4xl font-bold hidden lg:block">Karol Has</h1>
+        <h2 className="text-2xl hidden lg:block">Front-End Developer</h2>
+          <p className="font-light mb-6 hidden lg:block">Last update: July 06, 2023</p>
           <ul className="text-lg">
             <li className="mt-4 flex items-center justify-center">
               <a

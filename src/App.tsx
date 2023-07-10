@@ -1,21 +1,18 @@
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Photo from "./components/Photo";
+import Contact from "./components/Contact";
+import Buttons from "./components/Buttons";
 import About from "./components/About";
-import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-// import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
+      <Photo />
+      <Contact />
+      <Buttons />
       <About />
-      <Technologies />
-      <Experience />
-      <Education />
-      {/* <Projects /> */}
     </>
   );
 }

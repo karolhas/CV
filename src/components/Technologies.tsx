@@ -13,7 +13,7 @@ function Technologies() {
   return (
     <section
       id="technologies"
-      className="my-6 bg-violet-300 p-6 text-center font-montserrat shadow-inner"
+      className="my-6 bg-violet-200 p-6 text-center font-montserrat shadow-inner"
     >
       <h2 className="text-2xl font-semibold">Technologies</h2>
       <div className="grid grid-flow-col grid-rows-2 justify-around gap-y-10 pt-6 text-sm">

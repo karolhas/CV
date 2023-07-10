@@ -1,6 +1,9 @@
 function Experience() {
   return (
-    <section id="experience" className="my-6 bg-orange-300 p-6 font-montserrat shadow-inner">
+    <section
+      id="experience"
+      className="my-6 bg-orange-200 p-6 font-montserrat shadow-inner"
+    >
       <h2 className="text-center text-2xl font-semibold">Experience</h2>
       <h3 className="pt-6 text-xl">Back office consultant</h3>
       <p className="text-sm font-light text-gray-700">
@@ -21,10 +24,10 @@ function Experience() {
         </li>
       </ul>
       <div className="pt-6 text-xs">
-        <span className="rounded bg-gradient-to-b from-cyan-400 to-cyan-600 px-1 py-1 shadow-inner">
+        <span className="rounded bg-cyan-500 px-1 py-1 drop-shadow shadow-inner">
           English B2
         </span>
-        <span className="ml-2 rounded bg-gradient-to-b from-cyan-400 to-cyan-600 px-1 py-1">
+        <span className="ml-2 rounded bg-cyan-500 shadow-inner drop-shadow px-1 py-1">
           Solving problems
         </span>
       </div>

@@ -14,7 +14,7 @@ function Header() {
           <img
             src={Image}
             alt="avatar"
-            className="mx-auto h-60 w-60 rounded-full object-cover lg:w-[70%] lg:h-3/5"
+            className="mx-auto h-60 w-60 rounded-full object-cover lg:w-[70%] lg:h-[60%]"
           />
           <h2 className="mt-6 text-2xl lg:hidden">Front-End Developer</h2>
           <p className="font-light lg:hidden">Last update: July 06, 2023</p>

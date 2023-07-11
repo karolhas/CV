@@ -1,11 +1,11 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { BiSolidDownload } from "react-icons/bi";
-import PDF from "../../public/CV_Karol_Has.pdf";
+import PDF from "../assets/CV_Karol_Has.pdf";
 
 function Buttons() {
   return (
     <>
-      <div className="mx-auto m-10 flex w-[50%] flex-col font-bold">
+      <div className="m-10 mx-auto flex w-[50%] flex-col font-bold">
         <a
           href="https://github.com/karolhas"
           target="_blank"

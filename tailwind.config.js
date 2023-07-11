@@ -10,8 +10,9 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        firasans: ["Fira Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        openSans: ["Open Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },

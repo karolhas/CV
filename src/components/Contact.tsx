@@ -7,9 +7,9 @@ function Contact() {
     <>
       <section
         id="contact"
-        className="m-4 bg-blue-100 p-4 text-center text-lg shadow-[inset_0px_0px_3px_1px_#1a202c] rounded-xl"
+        className="m-4 rounded-xl bg-blue-100 p-4 text-center text-lg shadow-[inset_0px_0px_3px_1px_#1a202c]"
       >
-        <h2 className="pb-4 font-poppins text-2xl font-bold">Contact</h2>
+        <h1 className="pb-4 font-roboto text-4xl font-bold">Karol Has</h1>
         <div className="px-4 font-openSans">
           <p className="flex items-center">
             <MdLocationOn className="text-red-700" />

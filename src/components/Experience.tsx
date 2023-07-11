@@ -4,10 +4,10 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="m-4 bg-orange-100 p-4 font-openSans shadow-[inset_0px_0px_3px_1px_#1a202c] rounded-xl"
+      className="m-4 rounded-xl bg-orange-100  p-4 font-openSans shadow-[inset_0px_0px_3px_1px_#1a202c]"
     >
-      <h2 className="text-center text-2xl font-bold">Experience</h2>
-      <h3 className="pt-6 text-xl font-semibold flex items-center">
+      <h2 className="text-center font-roboto text-2xl font-bold">Experience</h2>
+      <h3 className="flex items-center pt-6 text-xl font-semibold">
         <TbBrandPaypalFilled className="text-2xl text-blue-800" /> Back office
         consultant
       </h3>
@@ -29,10 +29,10 @@ function Experience() {
         </li>
       </ul>
       <div className="pt-6 text-sm">
-        <span className="rounded bg-cyan-400 px-1 py-1 shadow-[0px_1px_2px_0px_#000261]">
+        <span className="rounded bg-orange-300 px-1 py-1 drop-shadow">
           English B2
         </span>
-        <span className="ml-2 rounded bg-cyan-400 px-1 py-1 shadow-[0px_1px_2px_0px_#000261]">
+        <span className="ml-2 rounded bg-orange-300 px-1 py-1 drop-shadow">
           Solving problems
         </span>
       </div>

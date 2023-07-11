@@ -14,8 +14,7 @@ function App() {
       <Buttons />
       <About />
       <Experience />
-      {/* test */}
-      {/* test */}
+      <Education />
     </>
   );
 }

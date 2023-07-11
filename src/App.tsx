@@ -4,7 +4,7 @@ import Buttons from "./components/Buttons";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Technologies from "./components/Technologies";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <About />
       <Experience />
       <Education />
+      <Skills />
     </>
   );
 }

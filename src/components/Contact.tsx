@@ -44,20 +44,6 @@ function Contact() {
             </a>
           </p>
         </div>
-        <div className="px-4 font-openSans">
-          <h2 className="mt-4 text-center font-roboto text-2xl font-bold">
-            Skills
-          </h2>
-          <ul className="list-inside list-disc pt-4">
-            <li>Responsibility and reliability</li>
-            <li>Engagement</li>
-            <li>Attention to details and esthetics</li>
-            <li>Very good work organization</li>
-            <li>Ability to provide feedback</li>
-            <li>Ability to work under pressure</li>
-            <li>Punctuality and good manners</li>
-          </ul>
-        </div>
       </section>
     </>
   );

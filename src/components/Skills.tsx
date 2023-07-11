@@ -12,6 +12,7 @@ function Skills() {
             <li>Ability to provide feedback</li>
             <li>Ability to work under pressure</li>
             <li>Punctuality and good manners</li>
+            <li>Driving license: category B</li>
           </ul>
         </div>
       </section>

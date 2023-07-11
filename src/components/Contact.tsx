@@ -5,9 +5,12 @@ import { AiFillPhone } from "react-icons/ai";
 function Contact() {
   return (
     <>
-      <div className="m-4 bg-blue-100 p-4 text-center text-lg shadow-[inset_0px_0px_3px_1px_#1a202c]">
+      <section
+        id="contact"
+        className="m-4 bg-blue-100 p-4 text-center text-lg shadow-[inset_0px_0px_3px_1px_#1a202c] rounded-xl"
+      >
         <h2 className="pb-4 font-poppins text-2xl font-bold">Contact</h2>
-        <div className="px-4">
+        <div className="px-4 font-openSans">
           <p className="flex items-center">
             <MdLocationOn className="text-red-700" />
             <a
@@ -43,7 +46,7 @@ function Contact() {
           <p>Coś tu jeszcze dodać?</p>
           <p>Coś tu jeszcze dodać?</p>
         </div>
-      </div>
+      </section>
     </>
   );
 }

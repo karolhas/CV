@@ -13,6 +13,7 @@ function App() {
       <Contact />
       <Buttons />
       <About />
+      <Experience />
     </>
   );
 }

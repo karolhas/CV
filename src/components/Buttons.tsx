@@ -5,7 +5,7 @@ import PDF from "../assets/CV_Karol_Has.pdf";
 function Buttons() {
   return (
     <>
-      <div className="m-10 mx-auto flex w-[50%] flex-col font-bold">
+      <div className="m-10 mx-auto flex w-[50%] flex-col text-lg font-bold">
         <a
           href="https://github.com/karolhas"
           target="_blank"

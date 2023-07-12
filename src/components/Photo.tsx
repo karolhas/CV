@@ -7,7 +7,7 @@ function Photo() {
         <img
           src={Image}
           alt="photography"
-          className="h-60 w-60 rounded-full object-cover"
+          className="h-72 w-72 rounded-full object-cover"
         />
       </picture>
     </>

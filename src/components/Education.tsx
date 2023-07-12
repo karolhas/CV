@@ -1,29 +1,25 @@
-import { GiGraduateCap } from "react-icons/gi";
+import { FaSchool } from "react-icons/fa";
 
 function Education() {
   return (
-    <section
-      id="education"
-      className="m-4 rounded-xl bg-green-100  p-4 font-openSans shadow-[inset_0px_0px_3px_1px_#1a202c]"
-    >
-      <h2 className="text-center font-roboto text-2xl font-bold">Education</h2>
-      <h3 className="flex items-center pt-6 text-xl font-semibold">
-        <GiGraduateCap className="mr-1 text-2xl text-blue-800" /> Academy of
-        Physical Education
-      </h3>
-      <p className="text-sm text-gray-800">
-        PHYSICAL EDUCATION | MASTER DEGREE, 2017-2022
-      </p>
-      <ul className="ml-2 list-inside list-disc pt-4">
-        <li>Certified instructor of acrobatics and gymnastics</li>
-      </ul>
-      <h3 className="flex items-center pt-6 text-xl font-semibold">
-        <GiGraduateCap className="mr-1 text-2xl text-blue-800" />
-        LO Więcbork
-      </h3>
-      <p className="text-sm text-gray-800">
-        MATHEMATICS & PHYSICS EXTENDED | 2014-2017
-      </p>
+    <section id="education" className="m-4 p-6">
+      <h2 className="text-3xl font-semibold">Education</h2>
+      <div className="float-left pt-4">
+        <FaSchool className="mr-4 mt-2 text-4xl" />
+      </div>
+      <div className="float-left w-[90%]">
+        <p className="pt-6 text-xl font-semibold">
+          Academy of Physical Education
+          <span className="float-right mt-2 text-sm font-normal italic text-gray-700">
+            2017 - 2022
+          </span>
+        </p>
+        <hr className="my-2 h-[1px] border-t-0 bg-[#383838] opacity-100" />
+        <p>Physical Education - Master Degree</p>
+        <ul className="list-inside list-disc pt-2">
+          <li>Certified instructor of acrobatics and gymnastics</li>
+        </ul>
+      </div>
     </section>
   );
 }

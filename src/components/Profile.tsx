@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <>
-      <section id="profile" className="m-4 bg-blue-100 p-6">
+      <section id="profile" className="m-4 p-6">
         <h2 className="pb-4 text-3xl font-semibold">Profile</h2>
         <div className="flex justify-between">
           <div>

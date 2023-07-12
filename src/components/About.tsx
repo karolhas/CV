@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <section id="about" className="m-4 bg-yellow-100 p-6">
+      <section id="about" className="m-4 p-6">
         <h1 className="pb-4 pl-4 text-5xl font-bold">Karol Has</h1>
         <p className="px-4 text-lg">
           Ambitious resourceful Junior Front-End Developer who creates websites

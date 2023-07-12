@@ -1,19 +1,21 @@
 function Skills() {
   return (
     <>
-      <section className="m-4 rounded-xl bg-violet-100 p-4 shadow-[inset_0px_0px_3px_1px_#1a202c]">
-        <div className="px-4 font-openSans">
-          <h2 className="text-center font-roboto text-2xl font-bold">Skills</h2>
-          <ul className="list-inside list-disc pt-4">
-            <li>Responsibility and reliability</li>
-            <li>Engagement</li>
-            <li>Attention to details and esthetics</li>
-            <li>Very good work organization</li>
-            <li>Ability to provide feedback</li>
-            <li>Ability to work under pressure</li>
-            <li>Punctuality and good manners</li>
-            <li>Driving license: category B</li>
-          </ul>
+      <section className="m-4 bg-violet-100 p-6">
+        <div className="px-4">
+          <h2 className=" text-3xl font-semibold">Skills</h2>
+          <div className="grid grid-cols-5 grid-rows-2 gap-4">
+            <div>HTML</div>
+            <div className="col-start-1 row-start-2">CSS</div>
+            <div className="col-start-2 row-start-1">Javascript</div>
+            <div className="col-start-2 row-start-2">React</div>
+            <div className="col-start-3 row-start-1">TailwindCSS</div>
+            <div className="col-start-3 row-start-2">Bootstrap</div>
+            <div className="col-start-4 row-start-1">Git</div>
+            <div className="col-start-4 row-start-2">Teamwork</div>
+            <div className="col-start-5 row-start-1">Problem solving</div>
+            <div>Communication skills</div>
+          </div>
         </div>
       </section>
     </>

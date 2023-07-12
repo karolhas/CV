@@ -11,6 +11,6 @@
 }
 
 body {
-  background: linear-gradient(0deg, #273868 0%, #2e7897 100%);
-  /* background: #2d728f; */
+  font-family: "Lato";
+  color: #383838;
 }

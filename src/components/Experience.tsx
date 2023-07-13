@@ -2,7 +2,7 @@ import { TbBrandPaypalFilled } from "react-icons/tb";
 
 function Experience() {
   return (
-    <section id="experience" className="m-4 p-6 ">
+    <section id="experience" className="">
       <h2 className="text-3xl font-semibold">Work experience</h2>
       <div className="float-left pt-4">
         <p className="pr-4 pt-2 text-sm font-extrabold italic text-blue-900">
@@ -17,7 +17,7 @@ function Experience() {
             04.2021 - 09.2021
           </span>
         </p>
-        <hr className="my-2 h-[1px] border-t-0 bg-[#383838] opacity-100" />
+        <div className="col-span-12 my-2 h-[1px] w-full bg-[#383838]"></div>
         <ul className="list-inside list-disc">
           <li>
             Customer indentification with the account by the documents provided

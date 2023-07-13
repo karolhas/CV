@@ -9,29 +9,34 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <div className="lg:grid-rows-7 lg:grid lg:max-h-screen lg:grid-cols-5">
-        <div className="lg:row-span-2">
+      <div className="grid grid-cols-5 grid-rows-4 gap-4">
+        <div className="row-span-4">
           <Photo />
-        </div>
-        <div className="lg:col-start-1 lg:row-span-2 lg:row-start-3">
           <Profile />
         </div>
-        <div className="lg:col-start-1 lg:row-span-2 lg:row-start-5">
-          <Buttons />
-        </div>
-        <div className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+        <div className="col-span-2">
           <About />
         </div>
-        <div className="lg:col-span-2 lg:col-start-4 lg:row-span-2 lg:row-start-1">
+        <div className="col-span-2 col-start-4">
+          <Buttons />
+        </div>
+        <div className="col-span-4 col-start-2 row-span-2 row-start-2">
+          <Experience />
+          <Education />
           <Skills />
         </div>
-        <div className="lg:col-span-4 lg:col-start-2 lg:row-span-2 lg:row-start-3">
-          <Experience />
-        </div>
-        <div className="lg:col-span-4 lg:row-span-2 lg:row-start-5">
-          <Education />
-        </div>
+        <div className="col-span-4 col-start-2 row-start-4"></div>
       </div>
+
+      {/* <div className="grid grid-cols-5 grid-rows-1 gap-2">
+        <div></div>
+        <div className="col-start-1 row-span-2 row-start-2"></div>
+        <div className="col-span-2 col-start-2 row-start-1"></div>
+        <div className="col-span-2 col-start-4 row-start-1"></div>
+        <div className="col-span-4 row-start-2"></div>
+        <div className="col-span-4 col-start-2 row-start-3"></div>
+        <div className="col-span-4 col-start-2 row-start-4"></div>
+      </div> */}
     </>
   );
 }

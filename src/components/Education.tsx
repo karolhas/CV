@@ -2,7 +2,7 @@ import { FaSchool } from "react-icons/fa";
 
 function Education() {
   return (
-    <div className="col-span-12 flex w-full flex-col">
+    <div className="flex w-full flex-col">
       <div className="col-span-12">
         <h2 className="text-3xl font-semibold">Education</h2>
       </div>

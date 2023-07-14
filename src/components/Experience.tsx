@@ -2,7 +2,7 @@ import { TbBrandPaypalFilled } from "react-icons/tb";
 
 function Experience() {
   return (
-    <div className="col-span-12 flex w-full flex-col">
+    <div className="flex w-full flex-col">
       <div className="col-span-12">
         <h2 className="text-3xl font-semibold">Work experience</h2>
       </div>

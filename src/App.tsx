@@ -4,6 +4,7 @@ import Buttons from "./components/Buttons";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Language from "./components/Language";
 import Skills from "./components/Skills";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className="row-span-4">
           <Photo />
           <Profile />
+          <Language />
         </div>
         <div className="col-span-2">
           <About />

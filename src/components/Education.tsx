@@ -11,7 +11,7 @@ function Education() {
           <FaSchool className="mx-auto text-3xl" />
         </div>
         <div className="w-full">
-          <div className="col-span-11 grid w-full grid-cols-2 justify-between">
+          <div className="col-span-11 grid w-full grid-cols-2">
             <div className="col-span-1 text-xl font-semibold">
               Academy of Physical Education
             </div>

@@ -23,7 +23,7 @@ function App() {
         <div className="col-span-4 col-start-2 row-span-2 row-start-2">
           <Experience />
           <Education />
-          <Skills />
+          {/* <Skills /> */}
         </div>
         <div className="col-span-4 col-start-2 row-start-4"></div>
       </div>

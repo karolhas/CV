@@ -1,4 +1,4 @@
-export default function Home() {
+function About() {
   return (
     <>
       <div className="flex w-full flex-col">
@@ -18,3 +18,5 @@ export default function Home() {
     </>
   );
 }
+
+export default About;

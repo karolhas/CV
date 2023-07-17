@@ -1,7 +1,7 @@
 
 # Portfolio
 
-Simple CV single-page-application project created with vite react-ts.
+Simple SPA CV single-page-application project created with vite react-ts.
 
 https://karolhas.github.io/cv/
 

@@ -1,9 +1,14 @@
 import { TbBrandPaypalFilled } from "react-icons/tb";
 
+import { Skills } from "./common";
+import { BiLogoHtml5 } from "react-icons/bi";
+
 function Experience() {
   return (
     <div className="flex w-full flex-col">
-      <div className="col-span-12">
+      <Skills svgName={BiLogoHtml5} skill={"HTML"} stars={0} />
+
+      {/* <div className="col-span-12">
         <h2 className="text-3xl font-semibold">Work experience</h2>
       </div>
       <div className="col-span-12 flex flex-row">
@@ -33,7 +38,7 @@ function Experience() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

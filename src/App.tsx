@@ -5,11 +5,11 @@ import About from "./components/About";
 import Buttons from "./components/Buttons";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Skills from "./components/Skills";
+import Skills from "./components/common/Skills";
 
 function App() {
   return (
-    <div className="grid-rows-8 grid min-h-screen grid-cols-12 content-center gap-8 p-6">
+    <div className="grid-rows-8 grid min-h-screen grid-cols-12 gap-8 p-6">
       <div className="col-span-3 col-start-1 row-span-3 row-start-1">
         <Photo />
       </div>

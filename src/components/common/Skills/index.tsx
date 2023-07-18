@@ -1,19 +1,18 @@
-import {
-  BiLogoHtml5,
-  BiLogoCss3,
-  BiLogoJavascript,
-  BiLogoReact,
-  BiLogoTailwindCss,
-  BiLogoBootstrap,
-  BiLogoGit,
-} from "react-icons/bi";
+// import {
+//   BiLogoHtml5,
+//   BiLogoCss3,
+//   BiLogoJavascript,
+//   BiLogoReact,
+//   BiLogoTailwindCss,
+//   BiLogoBootstrap,
+//   BiLogoGit,
+// } from "react-icons/bi";
 
+// import { HiUserGroup, HiMicrophone } from "react-icons/hi";
+// import { MdReportProblem } from "react-icons/md";
+import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { HiUserGroup, HiMicrophone } from "react-icons/hi";
-import { MdReportProblem } from "react-icons/md";
-
 import { IconType } from "react-icons";
-import { createElement } from "react";
 
 interface Skills {
   svgName: IconType;
@@ -26,20 +25,28 @@ export const Skills = ({
   skill,
   stars,
 }: React.PropsWithChildren<Skills>) => {
-  const IconComponent = createElement(svgName);
+  const renderStars = () => {
+    const filledStars = Math.min(stars, 3);
+    const starIcons: JSX.Element[] = [];
+
+    for (let i = 0; i < filledStars; i++) {
+      starIcons.push(<AiFillStar key={i} />);
+    }
+
+    for (let i = filledStars; i < 3; i++) {
+      starIcons.push(<AiOutlineStar key={i} />);
+    }
+
+    return starIcons;
+  };
   return (
-    <>
-      <div className="flex w-full flex-col">
-        <h2 className="text-3xl font-semibold">Skills</h2>
-        <div className="grid grid-cols-5 grid-rows-2 gap-2 text-lg">
-          <div className="flex items-center">
-            {IconComponent}
-            {skill}
-            {stars}
-          </div>
-        </div>
+    <div className="flex w-full flex-col">
+      <div className="flex items-center">
+        {svgName}
+        <div className="px-2">{skill}</div>
+        {renderStars()}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,14 +1,24 @@
 import { TbBrandPaypalFilled } from "react-icons/tb";
 
 import { Skills } from "./common";
-import { BiLogoHtml5 } from "react-icons/bi";
+import { BiLogoHtml5, BiLogoCss3 } from "react-icons/bi";
 
 function Experience() {
   return (
     <div className="flex w-full flex-col">
-      <Skills svgName={BiLogoHtml5} skill={"HTML"} stars={0} />
+      <h2 className="text-3xl font-semibold">Skills</h2>
+      <div className="grid grid-cols-5 grid-rows-2">
+        <Skills svgName={<BiLogoHtml5 />} skill={"HTML"} stars={2} />
+        <Skills svgName={<BiLogoCss3 />} skill={"CSS3"} stars={2} />
+      </div>
+    </div>
+  );
+}
 
-      {/* <div className="col-span-12">
+export default Experience;
+
+{
+  /* <div className="col-span-12">
         <h2 className="text-3xl font-semibold">Work experience</h2>
       </div>
       <div className="col-span-12 flex flex-row">
@@ -38,9 +48,5 @@ function Experience() {
             </div>
           </div>
         </div>
-      </div> */}
-    </div>
-  );
+      </div> */
 }
-
-export default Experience;

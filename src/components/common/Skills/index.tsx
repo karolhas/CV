@@ -1,20 +1,8 @@
-// import {
-//   BiLogoHtml5,
-//   BiLogoCss3,
-//   BiLogoJavascript,
-//   BiLogoReact,
-//   BiLogoTailwindCss,
-//   BiLogoBootstrap,
-//   BiLogoGit,
-// } from "react-icons/bi";
-
-// import { HiUserGroup, HiMicrophone } from "react-icons/hi";
-// import { MdReportProblem } from "react-icons/md";
 import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { IconType } from "react-icons";
 
-interface Skill {
+interface SkillProps {
   svgName: IconType;
   skill: string;
   stars: number;
@@ -24,7 +12,7 @@ export const SkillCard = ({
   svgName,
   skill,
   stars,
-}: React.PropsWithChildren<Skill>) => {
+}: React.PropsWithChildren<SkillProps>) => {
   const renderStars = () => {
     const filledStars = Math.min(stars, 3);
     const starIcons: JSX.Element[] = [];
@@ -39,6 +27,7 @@ export const SkillCard = ({
 
     return starIcons;
   };
+
   return (
     <div className="flex w-full flex-col">
       <div className="flex items-center">
@@ -49,5 +38,3 @@ export const SkillCard = ({
     </div>
   );
 };
-
-export default SkillCard;

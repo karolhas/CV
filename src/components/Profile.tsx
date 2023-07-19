@@ -1,26 +1,16 @@
+import { ProfileCard } from "./common/Profile";
+
 function Profile() {
   return (
-    <>
-      <div className="flex w-full flex-col">
-        <div>
-          <h2 className="text-3xl font-semibold">Profile</h2>
-        </div>
-        <div className="grid grid-cols-2 items-center justify-between">
-          <div className="cols-span-1">
-            <p>Name</p>
-            <p>Address</p>
-            <p>Phone</p>
-            <p>Driving License</p>
-          </div>
-          <div className="cols-span-1 text-right text-lg font-semibold">
-            <p>Karol Has</p>
-            <p>Więcbork, Poland</p>
-            <p>+48 733 658 874</p>
-            <p>B</p>
-          </div>
-        </div>
+    <div className="flex w-full flex-col">
+      <div>
+        <h2 className="mb-3 text-3xl font-semibold">Profile</h2>
       </div>
-    </>
+      <ProfileCard caption={"Name"} description={"Karol Has"} />
+      <ProfileCard caption={"Address"} description={"Więcbork, Poland"} />
+      <ProfileCard caption={"Phone"} description={"+48 733 658 874"} />
+      <ProfileCard caption={"Driving license"} description={"B"} />
+    </div>
   );
 }
 

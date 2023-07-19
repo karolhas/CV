@@ -5,7 +5,7 @@ import About from "./components/About";
 import Buttons from "./components/Buttons";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Skills from "./components/common/Skills";
+import Skills from "./components/Skills";
 
 function App() {
   return (

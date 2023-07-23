@@ -9,14 +9,14 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="grid-rows-8 grid min-h-screen grid-cols-12 gap-8 p-6">
+    <div className="grid-rows-8 grid min-h-screen grid-cols-12 content-center gap-8 p-6">
       <div className="col-span-3 col-start-1 row-span-3 row-start-1">
         <Photo />
       </div>
-      <div className="col-span-3 col-start-1 row-start-4">
+      <div className="col-span-3 col-start-1 row-start-4 px-3">
         <Profile />
       </div>
-      <div className="col-span-3 col-start-1 row-start-5">
+      <div className="col-span-3 col-start-1 row-start-5 px-3">
         <Language />
       </div>
       <div className="col-span-5 col-start-4 row-span-2 row-start-1 flex items-center">
@@ -28,7 +28,7 @@ function App() {
       <div className="col-span-9 col-start-4 row-start-3">
         <Experience />
       </div>
-      <div className="col-span-9 col-start-4 row-start-4">
+      <div className="col-span-9 col-start-4 row-start-4 flex flex-col justify-center">
         <Education />
       </div>
       <div className="col-span-9 col-start-4 row-start-5">

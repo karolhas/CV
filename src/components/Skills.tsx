@@ -14,11 +14,16 @@ import { MdReportProblem } from "react-icons/md";
 function Skills() {
   return (
     <div className="flex w-full flex-col">
-      <h2 className="mb-3 text-3xl font-semibold">Skills</h2>
-      <div className="grid grid-cols-5 grid-rows-2 items-center gap-y-3">
+      <h2 className="mb-6 text-3xl font-semibold">Skills</h2>
+      <div className="grid grid-cols-1 grid-rows-10 items-center gap-y-3 text-lg lg:text-base lg:grid-cols-5 lg:grid-rows-2">
         <SkillCard
           svgName={<BiLogoHtml5 className="text-2xl text-[#e34c26]" />}
           skill={"HTML"}
+          stars={2}
+        />
+        <SkillCard
+          svgName={<BiLogoCss3 className="text-2xl text-[#264de4]" />}
+          skill={"CSS3"}
           stars={2}
         />
         <SkillCard
@@ -27,8 +32,18 @@ function Skills() {
           stars={1}
         />
         <SkillCard
+          svgName={<BiLogoReact className="text-2xl text-[#34a4dc]" />}
+          skill={"React"}
+          stars={2}
+        />
+        <SkillCard
           svgName={<BiLogoTailwindCss className="text-2xl text-[#709af5]" />}
           skill={"TailwindCSS"}
+          stars={3}
+        />
+        <SkillCard
+          svgName={<BiLogoBootstrap className="text-2xl text-[#59287a]" />}
+          skill={"Bootstrap5"}
           stars={3}
         />
         <SkillCard
@@ -41,21 +56,9 @@ function Skills() {
           skill={"Teamwork"}
           stars={3}
         />
-        <SkillCard
-          svgName={<BiLogoCss3 className="text-2xl text-[#264de4]" />}
-          skill={"CSS3"}
-          stars={2}
-        />
-        <SkillCard
-          svgName={<BiLogoReact className="text-2xl text-[#34a4dc]" />}
-          skill={"React"}
-          stars={2}
-        />
-        <SkillCard
-          svgName={<BiLogoBootstrap className="text-2xl text-[#59287a]" />}
-          skill={"Bootstrap5"}
-          stars={3}
-        />
+        
+        
+        
         <SkillCard
           svgName={<MdReportProblem className="text-2xl text-[#d3c440]" />}
           skill={"Solving problems"}
@@ -72,3 +75,5 @@ function Skills() {
 }
 
 export default Skills;
+
+// LG: grid grid-cols-5 grid-rows-2 items-center gap-y-3

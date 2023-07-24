@@ -5,7 +5,7 @@ function Education() {
   return (
     <>
       <div className="col-span-12">
-        <h2 className="mb-3 text-3xl font-semibold">Education</h2>
+        <h2 className="mb-6 text-3xl font-semibold">Education</h2>
       </div>
       <EducationCard
         svgName={<FaSchool className="mx-auto text-3xl" />}

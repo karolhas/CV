@@ -3,12 +3,12 @@ function About() {
     <>
       <div className="flex w-full flex-col">
         <div>
-          <h1 className="mb-3 text-center text-5xl font-bold lg:text-left">
+          <h1 className="mb-6 text-center text-5xl font-bold lg:text-left">
             Karol Has
           </h1>
         </div>
         <div>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Ambitious resourceful Junior Front-End Developer who creates
             websites with passion and dedication. Currently working as a soldier
             and spending every moment on creating new projects and improving as

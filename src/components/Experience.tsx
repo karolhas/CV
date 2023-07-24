@@ -5,7 +5,7 @@ function Experience() {
   return (
     <>
       <div className="col-span-12">
-        <h2 className="mb-3 text-3xl font-semibold">Work experience</h2>
+        <h2 className="mb-6 text-3xl font-semibold">Work experience</h2>
       </div>
       <ExperienceCard
         svgName={

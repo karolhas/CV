@@ -9,43 +9,33 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="p-6">
-      <div className="mb-6">
+    <div className="lg:grid-rows-8 p-6 lg:grid lg:min-h-screen lg:grid-cols-12 lg:content-center lg:gap-16">
+      <div className="mb-8 lg:col-span-3 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mb-0">
         <Photo />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-3 lg:col-start-1 lg:row-start-4 lg:mb-0 lg:px-8">
         <Profile />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-3 lg:col-start-1 lg:row-start-5 lg:mb-0 lg:px-8">
         <Language />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-5 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:mb-0 lg:flex lg:items-center">
         <About />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-4 lg:col-start-9 lg:row-span-2 lg:row-start-1 lg:mb-0 lg:flex lg:items-end lg:pr-8">
         <Buttons />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-9 lg:col-start-4 lg:row-start-3 lg:mb-0 lg:pr-8">
         <Experience />
       </div>
-      <div className="mb-6">
+      <div className="mb-8 lg:col-span-9 lg:col-start-4 lg:row-start-4 lg:mb-0 lg:flex lg:flex-col lg:justify-center lg:pr-8">
         <Education />
       </div>
-      <div className="">
+      <div className="lg:col-span-9 lg:row-start-5 lg:pr-8">
         <Skills />
       </div>
     </div>
   );
 }
-
-// LG SCREEN: grid-rows-8 grid min-h-screen grid-cols-12 content-center gap-8 p-6
-// LG PHOTO: col-span-3 col-start-1 row-span-3 row-start-1
-// LG PROFILE: col-span-3 col-start-1 row-start-4 px-3
-// LG LANGUAGE: col-span-3 col-start-1 row-start-5 px-3
-// LG ABOUT: col-span-5 col-start-4 row-span-2 row-start-1 flex items-center
-// LG BUTTONS: col-span-4 col-start-9 row-span-2 row-start-1 flex items-end
-// LG EXPERIENCE: col-span-9 col-start-4 row-start-3
-// LG EDUCATION: col-span-9 col-start-4 row-start-4 flex flex-col justify-center
-// LG SKILLS:
 
 export default App;

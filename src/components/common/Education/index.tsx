@@ -15,12 +15,14 @@ export const EducationCard = ({
   description,
 }: React.PropsWithChildren<EducationProps>) => {
   return (
-    <div className="col-span-12 flex flex-row">
+    <div className="flex flex-row">
       <div className="w-16">{svgName}</div>
       <div className="w-full">
-        <div className="col-span-11 grid w-full grid-cols-2 justify-between">
-          <div className="col-span-1 text-xl font-semibold">{caption}</div>
-          <div className="col-span-1 flex items-center justify-end text-sm font-normal italic text-gray-700">
+        <div className="md:grid md:w-full md:grid-cols-3 md:justify-between">
+          <div className="text-lg font-semibold md:col-span-2 lg:text-xl">
+            {caption}
+          </div>
+          <div className="my-1 flex items-center text-sm font-normal italic text-gray-700 md:col-span-1 md:my-0 md:justify-end">
             {date}
           </div>
         </div>

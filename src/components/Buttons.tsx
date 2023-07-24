@@ -5,17 +5,17 @@ import PDF from "../assets/CV_Karol_Has.pdf";
 
 function Buttons() {
   return (
-    <div className="mx-auto w-52 lg:grid lg:w-full lg:grid-cols-3">
+    <div className="mx-auto w-52 2xl:grid 2xl:w-full 2xl:grid-cols-3">
       <div className="cols-span-1">
         <ButtonsCard
           hrefLink={PDF}
           svgName={<BiSolidDownload />}
           caption={"Download PDF"}
-          btnStyle="flex cursor-pointer items-center justify-center rounded-lg border-2 border-gray-300 bg-white p-2 shadow-lg duration-300 hover:bg-teal-600 hover:text-white"
+          btnStyle="flex cursor-pointer items-center justify-center rounded-lg border-2 border-gray-300 bg-white p-2 shadow-lg duration-300 hover:bg-teal-600 hover:text-white "
           // download?
         />
       </div>
-      <div className="cols-span-1">
+      <div className="cols-span-1 my-4 2xl:my-0 2xl:mx-2">
         <ButtonsCard
           hrefLink={"https://www.linkedin.com/in/karolhas"}
           svgName={<BsLinkedin />}

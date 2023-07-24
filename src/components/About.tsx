@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <div className="flex w-full flex-col">
+      <div className="flex lg:w-full flex-col md:w-3/4 md:mx-auto">
         <div>
           <h1 className="mb-6 text-center text-5xl font-bold lg:text-left">
             Karol Has

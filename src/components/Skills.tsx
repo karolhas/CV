@@ -13,9 +13,9 @@ import { MdReportProblem } from "react-icons/md";
 
 function Skills() {
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex flex-col md:mx-auto md:w-3/4 lg:w-full">
       <h2 className="mb-6 text-3xl font-semibold">Skills</h2>
-      <div className="grid grid-cols-1 grid-rows-10 items-center gap-y-3 text-lg lg:text-base lg:grid-cols-5 lg:grid-rows-2">
+      <div className="grid-rows-10 grid grid-cols-1 items-center gap-y-3 text-lg md:grid-cols-2 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-2">
         <SkillCard
           svgName={<BiLogoHtml5 className="text-2xl text-[#e34c26]" />}
           skill={"HTML"}
@@ -56,9 +56,7 @@ function Skills() {
           skill={"Teamwork"}
           stars={3}
         />
-        
-        
-        
+
         <SkillCard
           svgName={<MdReportProblem className="text-2xl text-[#d3c440]" />}
           skill={"Solving problems"}

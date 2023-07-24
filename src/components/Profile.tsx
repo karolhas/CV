@@ -2,7 +2,7 @@ import { ProfileCard } from "./common/Profile";
 
 function Profile() {
   return (
-    <div className="flex w-full flex-col">
+    <div className="flex lg:w-full flex-col md:w-3/4 md:mx-auto">
       <div>
         <h2 className="mb-3 text-3xl font-semibold">Profile</h2>
       </div>

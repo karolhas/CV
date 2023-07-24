@@ -1,9 +1,9 @@
-import React from "react";
+import { ReactElement } from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { IconType } from "react-icons";
 
 interface SkillProps {
-  svgName: IconType;
+  svgName: ReactElement<IconType>;
   skill: string;
   stars: number;
 }

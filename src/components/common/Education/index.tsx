@@ -1,7 +1,8 @@
+import { ReactElement } from "react";
 import { IconType } from "react-icons";
 
 interface EducationProps {
-  svgName: IconType;
+  svgName: ReactElement<IconType>;
   caption: string;
   date: string;
   description: string;

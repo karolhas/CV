@@ -15,7 +15,7 @@ function Skills() {
   return (
     <div className="flex w-full flex-col">
       <h2 className="mb-3 text-3xl font-semibold">Skills</h2>
-      <div className="grid grid-cols-5 grid-rows-2 items-center gap-y-3 text-lg">
+      <div className="grid grid-cols-5 grid-rows-2 items-center gap-y-3">
         <SkillCard
           svgName={<BiLogoHtml5 className="text-2xl text-[#e34c26]" />}
           skill={"HTML"}

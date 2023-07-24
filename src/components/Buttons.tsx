@@ -5,7 +5,7 @@ import PDF from "../assets/CV_Karol_Has.pdf";
 
 function Buttons() {
   return (
-    <div className="grid w-full grid-cols-3">
+    <div className="mx-auto w-52 lg:grid lg:w-full lg:grid-cols-3">
       <div className="cols-span-1">
         <ButtonsCard
           hrefLink={PDF}

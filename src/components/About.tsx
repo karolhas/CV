@@ -3,7 +3,9 @@ function About() {
     <>
       <div className="flex w-full flex-col">
         <div>
-          <h1 className="mb-3 text-5xl font-bold">Karol Has</h1>
+          <h1 className="mb-3 text-center text-5xl font-bold lg:text-left">
+            Karol Has
+          </h1>
         </div>
         <div>
           <p className="text-lg">

@@ -8,9 +8,11 @@ export const ProfileCard = ({
   description,
 }: React.PropsWithChildren<ProfileProps>) => {
   return (
-    <div className="grid grid-cols-2">
-      <div>{caption}</div>
-      <div className="text-right text-xl font-semibold">{description}</div>
+    <div className="grid grid-cols-3">
+      <div className="col-span-1">{caption}</div>
+      <div className="col-span-2 text-right text-xl font-semibold">
+        {description}
+      </div>
     </div>
   );
 };

@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 
+
 function App() {
   return (
     <div className="lg:grid-rows-8 p-8 lg:grid lg:min-h-screen lg:grid-cols-12 lg:content-center lg:gap-8 lg:p-6">

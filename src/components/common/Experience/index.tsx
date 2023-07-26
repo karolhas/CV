@@ -22,7 +22,7 @@ export const ExperienceCard = ({
           <span className="text-blue-300">Pal</span>
         </p>
       </div>
-      <div className="w-full px-2">
+      <div className="w-full">
         <div className="md:grid md:w-full md:grid-cols-2 md:justify-between lg:col-span-11">
           <div className="text-lg lg:text-xl font-semibold lg:col-span-1">{caption}</div>
           <div className="my-1 flex items-center text-sm italic text-gray-700 md:my-0 md:justify-end lg:col-span-1">

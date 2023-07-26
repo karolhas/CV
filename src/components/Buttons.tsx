@@ -15,7 +15,7 @@ function Buttons() {
           // download?
         />
       </div>
-      <div className="cols-span-1 my-4 2xl:my-0 2xl:mx-2">
+      <div className="cols-span-1 my-4 2xl:mx-2 2xl:my-0">
         <ButtonsCard
           hrefLink={"https://www.linkedin.com/in/karolhas"}
           svgName={<BsLinkedin />}

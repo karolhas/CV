@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="lg:grid-rows-8 p-8 lg:grid lg:min-h-screen lg:grid-cols-12 lg:content-center lg:gap-16 lg:p-6">
+    <div className="lg:grid-rows-8 p-8 lg:grid lg:min-h-screen lg:grid-cols-12 lg:content-center lg:gap-x-8 lg:gap-y-16 lg:p-6">
       <div className="mb-12 lg:col-span-3 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mb-0">
         <Photo />
       </div>

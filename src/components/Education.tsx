@@ -3,7 +3,7 @@ import { FaSchool } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 function Education() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <>

@@ -2,7 +2,7 @@ import { LanguagesCard } from "./common/Languages";
 import { useTranslation } from "react-i18next";
 
 function Languages() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <div className="flex flex-col md:mx-auto md:w-3/4 lg:w-full">

@@ -2,7 +2,7 @@ import { ProfileCard } from "./common/Profile";
 import { useTranslation } from "react-i18next";
 
 function Profile() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <div className="flex flex-col md:mx-auto md:w-3/4 lg:w-full">

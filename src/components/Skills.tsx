@@ -13,7 +13,7 @@ import { HiUserGroup, HiMicrophone } from "react-icons/hi";
 import { MdReportProblem } from "react-icons/md";
 
 function Skills() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <div className="flex flex-col md:mx-auto md:w-3/4 lg:w-full">

@@ -5,8 +5,8 @@ import PDF from "../assets/CV_Karol_Has.pdf";
 import { useTranslation } from "react-i18next";
 
 function Buttons() {
-  const { t, i18n } = useTranslation("common");
-  
+  const { t } = useTranslation("common");
+
   return (
     <div className="mx-auto w-52 2xl:grid 2xl:w-full 2xl:grid-cols-3">
       <div className="cols-span-1">

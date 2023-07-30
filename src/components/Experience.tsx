@@ -3,13 +3,15 @@ import { ExperienceCard } from "./common";
 import { useTranslation } from "react-i18next";
 
 function Experience() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <>
       <div className="md:mx-auto md:w-3/4 lg:w-full">
         <div className="col-span-12">
-          <h2 className="mb-6 text-3xl font-semibold">{t("title.experience")}</h2>
+          <h2 className="mb-6 text-3xl font-semibold">
+            {t("title.experience")}
+          </h2>
         </div>
         <ExperienceCard
           svgName={

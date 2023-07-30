@@ -13,11 +13,16 @@
     "phone": "Phone",
     "drivingLicense": "Driving License",
     "pl": "Polish",
-    "en": "English"
+    "en": "English",
+    "downloadPDF": "Download PDF",
+    "backOfficeWork": "Back office consultant with English B2",
+    "educationPE": "Academy of Physical Education in Poznań (Master Degree)"
   },
 
   "description": {
     "native": "Native",
-    "about": "Ambitious resourceful Junior Front-End Developer who creates websites with passion and dedication. Currently working as a soldier and spending every moment on creating new projects and improving as a programmer. I set goals and achieve them - my current one is toget a job as a software developer."
+    "about": "Ambitious resourceful Junior Front-End Developer who creates websites with passion and dedication. Currently working as a soldier and spending every moment on creating new projects and improving as a programmer. I set goals and achieve them - my current one is toget a job as a software developer.",
+    "backOfficeDesc": "Customer indentification with the account by the documents provided by him",
+    "educationPEdesc": "Certified instructor of acrobatics and gymnastics"
   }
 }

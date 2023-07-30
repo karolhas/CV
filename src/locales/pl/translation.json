@@ -13,11 +13,16 @@
     "phone": "Telefon",
     "drivingLicense": "Prawo jazdy",
     "pl": "Polski",
-    "en": "Angielski"
+    "en": "Angielski",
+    "downloadPDF": "Pobierz PDF",
+    "backOfficeWork": "Konsultant back office z językiem angielskim B2",
+    "educationPE": "Akademia Wychowania Fizycznego w Poznaniu (Magisterka)"
   },
 
   "description": {
     "native": "Ojczysty",
-    "about": "Ambitny, zaradny Junior Front-End Developer tworzący strony internetowe z pasją i zaangażowaniem. Obecnie pracuję jako żołnierz i każdą chwilę poświęcam na tworzenie nowych projektów i doskonalenie się jako programista. Wyznaczam sobie cele i je realizuję - moim obecnym jest zdobycie pracy jako programista."
+    "about": "Ambitny, zaradny Junior Front-End Developer tworzący strony internetowe z pasją i zaangażowaniem. Obecnie pracuję jako żołnierz i każdą chwilę poświęcam na tworzenie nowych projektów i doskonalenie się jako programista. Wyznaczam sobie cele i je realizuję - moim obecnym jest zdobycie pracy jako programista.",
+    "backOfficeDesc": "Identyfikacja klienta z jego kontem na podstawie dostarczonych przez niego dokumentów",
+    "educationPEdesc": "Certyfikowany instruktor akrobatyki i gimnastyki sportowej"
   }
 }

@@ -1,4 +1,5 @@
 import { SkillCard } from "./common";
+import { useTranslation } from "react-i18next";
 import {
   BiLogoHtml5,
   BiLogoCss3,
@@ -12,10 +13,12 @@ import { HiUserGroup, HiMicrophone } from "react-icons/hi";
 import { MdReportProblem } from "react-icons/md";
 
 function Skills() {
+  const { t, i18n } = useTranslation("common");
+
   return (
     <div className="flex flex-col md:mx-auto md:w-3/4 lg:w-full">
-      <h2 className="mb-6 text-3xl font-semibold">Skills</h2>
-      <div className="grid-rows-10 grid grid-cols-1 items-center gap-y-2 text-lg md:grid-cols-2 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-2 2xl:text-lg lg:text-base">
+      <h2 className="mb-6 text-3xl font-semibold">{t("title.skills")}</h2>
+      <div className="grid-rows-10 grid grid-cols-1 items-center gap-y-2 text-lg md:grid-cols-2 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-2 lg:text-base 2xl:text-lg">
         <SkillCard
           svgName={<BiLogoHtml5 className="text-2xl text-[#e34c26]" />}
           skill={"HTML"}

@@ -2,15 +2,18 @@ import { ButtonsCard } from "./common";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { BiSolidDownload } from "react-icons/bi";
 import PDF from "../assets/CV_Karol_Has.pdf";
+import { useTranslation } from "react-i18next";
 
 function Buttons() {
+  const { t, i18n } = useTranslation("common");
+  
   return (
     <div className="mx-auto w-52 2xl:grid 2xl:w-full 2xl:grid-cols-3">
       <div className="cols-span-1">
         <ButtonsCard
           hrefLink={PDF}
           svgName={<BiSolidDownload />}
-          caption={"Download PDF"}
+          caption={t("caption.downloadPDF")}
           btnStyle="flex cursor-pointer items-center justify-center rounded-lg border-2 border-gray-300 bg-white p-2 shadow-lg duration-300 hover:bg-teal-600 hover:text-white "
           // download?
         />

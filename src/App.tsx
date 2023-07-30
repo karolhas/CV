@@ -1,12 +1,11 @@
 import Photo from "./components/Photo";
 import Profile from "./components/Profile";
-import Language from "./components/Language";
+import Languages from "./components/Languages";
 import About from "./components/About";
 import Buttons from "./components/Buttons";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
         <Profile />
       </div>
       <div className="mb-12 lg:col-span-3 lg:col-start-1 lg:row-start-5 lg:mb-0 lg:px-4">
-        <Language />
+        <Languages />
       </div>
       <div className="mb-12 lg:col-span-5 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:mb-0 lg:flex lg:items-center">
         <About />

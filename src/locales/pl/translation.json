@@ -1,8 +1,23 @@
 {
-  "profile": {
-    "header": "Profil"
+  "title": {
+    "profile": "Profil",
+    "languages": "Języki",
+    "experience": "Doświadczenie",
+    "education": "Wykształcenie",
+    "skills": "Umiejętności"
+  },
+
+  "caption": {
+    "name": "Imię i nazwisko",
+    "address": "Adres",
+    "phone": "Telefon",
+    "drivingLicense": "Prawo jazdy",
+    "pl": "Polski",
+    "en": "Angielski"
+  },
+
+  "description": {
+    "native": "Ojczysty",
+    "about": "Ambitny, zaradny Junior Front-End Developer tworzący strony internetowe z pasją i zaangażowaniem. Obecnie pracuję jako żołnierz i każdą chwilę poświęcam na tworzenie nowych projektów i doskonalenie się jako programista. Wyznaczam sobie cele i je realizuję - moim obecnym jest zdobycie pracy jako programista."
   }
 }
-
-"extract:en": "formatjs extract src/**/*.ts* --ignore=**/*.d.ts --out-file src/locale/i18n/en.json --id-interpolation-pattern [sha512:contenthash:base64:6]",
-    "compile:en": "formatjs compile src/locale/i18n/en.json --out-file src/locale/i18n/en-compiled.json"

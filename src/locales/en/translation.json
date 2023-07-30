@@ -1,8 +1,7 @@
 {
   "title": {
     "profile": "Profile",
-    "language": "Languages",
-    "about": "Karol Has",
+    "languages": "Languages",
     "experience": "Work experience",
     "education": "Education",
     "skills": "Skills"
@@ -13,13 +12,12 @@
     "address": "Address",
     "phone": "Phone",
     "drivingLicense": "Driving License",
-    "polish": "Polish",
-    "english": "English"
+    "pl": "Polish",
+    "en": "English"
   },
 
-  "buttons": {
-    "downloadBtn": "Download PDF",
-    "linkedinBtn": "LinkedIn",
-    "githubBtn": "Github"
+  "description": {
+    "native": "Native",
+    "about": "Ambitious resourceful Junior Front-End Developer who creates websites with passion and dedication. Currently working as a soldier and spending every moment on creating new projects and improving as a programmer. I set goals and achieve them - my current one is toget a job as a software developer."
   }
 }

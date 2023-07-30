@@ -1,12 +1,12 @@
-interface LanguageProps {
+interface LanguagesProps {
   caption: string;
   description: string;
 }
 
-export const LanguageCard = ({
+export const LanguagesCard = ({
   caption,
   description,
-}: React.PropsWithChildren<LanguageProps>) => {
+}: React.PropsWithChildren<LanguagesProps>) => {
   return (
     <div className="grid grid-cols-2">
       <div>{caption}</div>

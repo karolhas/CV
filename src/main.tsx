@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./i18n.tsx";
@@ -13,7 +13,9 @@ const router = createHashRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <Suspense fallback="loading">
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </Suspense>
 );

@@ -1,0 +1,8 @@
+{
+  "profile": {
+    "header": "Profil"
+  }
+}
+
+"extract:en": "formatjs extract src/**/*.ts* --ignore=**/*.d.ts --out-file src/locale/i18n/en.json --id-interpolation-pattern [sha512:contenthash:base64:6]",
+    "compile:en": "formatjs compile src/locale/i18n/en.json --out-file src/locale/i18n/en-compiled.json"

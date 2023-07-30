@@ -1,0 +1,25 @@
+{
+  "title": {
+    "profile": "Profile",
+    "language": "Languages",
+    "about": "Karol Has",
+    "experience": "Work experience",
+    "education": "Education",
+    "skills": "Skills"
+  },
+
+  "caption": {
+    "name": "Name",
+    "address": "Address",
+    "phone": "Phone",
+    "drivingLicense": "Driving License",
+    "polish": "Polish",
+    "english": "English"
+  },
+
+  "buttons": {
+    "downloadBtn": "Download PDF",
+    "linkedinBtn": "LinkedIn",
+    "githubBtn": "Github"
+  }
+}

@@ -24,5 +24,9 @@
     "about": "Ambitious resourceful Junior Front-End Developer who creates websites with passion and dedication. Currently working as a soldier and spending every moment on creating new projects and improving as a programmer. I set goals and achieve them - my current one is toget a job as a software developer.",
     "backOfficeDesc": "Customer indentification with the account by the documents provided by him",
     "educationPEdesc": "Certified instructor of acrobatics and gymnastics"
+  },
+
+  "link": {
+    "translatedCV": "/cv/src/assets/cv_en.pdf"
   }
 }

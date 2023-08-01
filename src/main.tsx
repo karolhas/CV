@@ -14,7 +14,7 @@ const router = createHashRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <SkeletonTheme baseColor="#d2d2d2" highlightColor="#b2b2b2">
+  <SkeletonTheme baseColor="#e2e2e2" highlightColor="#c2c2c2">
     <Suspense fallback="loading">
       <React.StrictMode>
         <RouterProvider router={router} />

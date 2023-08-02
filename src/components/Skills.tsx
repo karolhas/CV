@@ -23,7 +23,7 @@ function Skills() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 300);
   });
 
   return (
